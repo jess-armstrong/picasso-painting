@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.form-input {
+  margin: 5px;
+}
+
+.rainbow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.rainbow {
+  width: 30rem;
+  height: 3rem;
+}
+
+.heart {
+  position: relative;
+  top: -215px;
+  left: -120px;
+  z-index: 2;
+}
+
+/* heart css thanks to this tutorial: https://medium.com/@mrlabinotjaha/heart-shape-html-css-c94007f5ad7b */
+
+.left {
+  width: 75px;
+  height: 115px;
+  background-color: #eb4964;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  transform: rotate(-50deg);
+  left: 60px;
+  position: absolute;
+}
+
+.right {
+  width: 75px;
+  height: 115px;
+  background-color: #eb4964;
+  position: absolute;
+  left: 100px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  transform: rotate(50deg);
+}
