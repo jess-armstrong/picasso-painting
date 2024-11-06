@@ -1,0 +1,15 @@
+.sun {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.form-input {
+  margin: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
